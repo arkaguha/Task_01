@@ -1,0 +1,8 @@
+Get API - get statistics data using os module 
+- whatever statistics we get we can return 
+- in header content type(Application/JSON) 
+- basic authenticate user(JWT/Passport) 
+- using query params to fetch what query properties that I need 
+- create custom middleware to check request I'd exists 
+(if not create a request I'd and put it request object header) 
+(use uuid-v4 for generate it). In addition, we can add a logger like Winston.
